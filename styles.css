@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Центрирование по высоте */
+  min-height: 100vh;
 }
 
 .slider {
@@ -24,7 +24,6 @@ body {
 .slides {
   width: 100%;
   display: flex;
-
   transition: transform 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
